@@ -1,4 +1,3 @@
-//Create a button to take the user to the page with the map for Customs
-let btn = document.createElement("button");
-btn.innerHTML = "Customs";
-document.body.appendChild(btn);
+// script.js
+
+let myMap = L.map("map").setView([37.61, -122.011], 10);
